@@ -7,7 +7,8 @@ I will go completing...
 ## MySQL config:
 
 
-    If you have a local or remote version of MySQL already configured, you will only have to change the application.yml and adapt it to your connection.
+    If you have a local or remote version of MySQL already configured, you will only have to change the 
+    application.yml and adapt it to your connection.
 
 We're going to use a Docker container.
 
