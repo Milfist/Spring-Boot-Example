@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.milfist.poc.mapper.UserMapper">
+
+    <select id="getLanguageByUser" resultType="String">
+        SELECT LANGUAGE FROM USERS WHERE NAME = #{userName}
+    </select>
+
+    <select id="getMessageByLanguage" resultType="String">
+        SELECT TEXT FROM MESSAGES WHERE LANGUAGE = #{language}
+    </select>
+
+</mapper>
